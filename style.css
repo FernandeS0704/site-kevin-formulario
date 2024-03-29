@@ -19,12 +19,21 @@ body{
     padding-top: 0;
 }
 
+#checkbox{
+    display: block;
+}
+
 .checkbox{ 
    display: flex;
    flex-direction: row;
    align-items: center;
+   margin: -20px 0;
 }
 
 textarea{
     resize: none;
+}
+
+.caixa{
+    padding: 0 3px;
 }
